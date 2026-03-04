@@ -21,7 +21,7 @@
       text-align: center;
       box-shadow: 0 10px 30px rgba(0,0,0,0.2);
       animation: pop 1s ease;
-      max-width: 300px;
+      max-width: 320px;
     }
 
     h1 {
@@ -36,6 +36,12 @@
     .heart {
       font-size: 50px;
       animation: beat 1s infinite;
+    }
+
+    .hint {
+      font-size: 16px;
+      color: #ff7a90;
+      margin-top: 5px;
     }
 
     button {
@@ -84,12 +90,14 @@
     <p>Just wanted to say</p>
     <h1>Thank You 💕</h1>
     <p>for being you.</p>
+
     <p class="heart">❤️</p>
     <p>I love you.</p>
 
     <!-- HEART COUNTER -->
     <button onclick="love()">Tap for love ❤️</button>
     <p>Love level: <span id="count">0</span></p>
+    <p class="hint">👀 press till 100</p>
 
     <!-- POPUP AT 100 -->
     <div id="popup">
